@@ -1,0 +1,59 @@
+/* calculator.css */
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    max-width: 300px;
+    height: 50vh;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    color: white; /* Text color */
+  }
+  
+  #display {
+    grid-column: 1 / span 4;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+  }
+  .red{
+    background-color: rgb(255, 0, 0);
+  }
+  .yellow{
+    background-color: rgb(194, 104, 188);
+  }
+  .lightred{
+    background-color: lightcoral;
+  }
+  .gray{
+    background-color: rgb(13, 190, 206);
+  }
+  .green{
+    background-color: green;
+  }
+  
+  .orange{
+    background-color: rgb(99, 2, 2);
+  }
+.center{
+  text-align: center;
+  text-decoration: underline;
+}
+  
+.item{
+  display: flex;
+  flex-direction: column;
+}
